@@ -286,3 +286,30 @@ legend, label, input, select{
     margin-bottom: 1em;
 }
 
+footer div{
+   background-color: black;
+   display: flex;
+   padding: 20px;
+   justify-content: end;
+}
+
+footer div ul{
+    display: flex;
+}
+
+
+
+footer .logos-redes .img-twitter{
+    width: 40px;
+    height: 30px;
+}
+
+footer .logos-redes .img-instagram{
+    width: 55px;
+    height: 30px;
+}
+
+footer .logos-redes .img-whatsapp{
+    width: 35px;
+    height: 35px;
+}
