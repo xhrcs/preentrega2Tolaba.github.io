@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Heebo:wght@300;400;700&family=Roboto+Mono:ital,wght@1,300&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Vollkorn', serif;
+}
+
+body{
+    background-color: rgb(24, 21, 21);
+}
+
+body a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 700;
+    font-family: 'Heebo', sans-serif;
+}
+
+.Nombre{
+    font-family: 'Heebo', sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+
+header a h2{
+    display: flex;
+    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo{
+    display: flex;
+    margin-right: auto;
+}
+
+header a img{
+    height: 40px;
+    padding-left: 10px;
+}
+
+header .navbar .nav{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header .navbar .nav{
+    list-style: none;
+
+}
+
+header .navbar .nav a{
+    text-decoration: none;
+}
+
+header nav li a:hover{
+    color: red;
+}
+
+main {
+    margin-left: 20px;
+    background-color: aqua;
+    display: flex;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+main .img-home img{
+    height: 400px;
+    width: 800px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+
+main div p{
+    font-size: larger;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.titulo-main{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+}
+
+.texto-main{
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+
+.ensamblado{
+    background-color: aqua;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+}
+
+.img-ensamblado iframe{
+    height: 400px;
+    width: 800px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.titulo-main-dos{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+
+section div p{
+    font-size: larger;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Productos */
+
+.main-productos{
+    background-color: orange;
+    display: flex;
+}
+
+.titulo-producto{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-productos div ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.main-productos div ul li a{
+    color: black;
+    padding: 10px 10px;
+    margin: 20px 20px;
+
+}
+
+.main-productos div img{
+    height: 300px;
+    width: 300px;
+    padding: 10px 10px;
+    margin: 15px 15px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+/* nosotros */
+
+.main-nosotros{
+    display: flex;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background-color: orange;
+}
+
+.main-nosotros div .titulo-nosotros{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-nosotros div p{
+    font-size: larger;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px 10px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.section-nosotros{
+    display: flex;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.section-nosotros div .titulo-trayectoria{
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section-nosotros div p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-nosotros div iframe{
+    border-radius: 15px;
+    margin: 20px 15px;
+}
+
+/* encontranos */
+
+.main-encontranos{
+    background-color: aqua;
+    display: flex;
+}
+
+.main-encontranos h2{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+section div ul li iframe {
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+}
+
+section div ul li{
+    margin: 10px 10px;
+    padding: 15px 15px;
+    display: inline-block;
+
+}
+
+.main-ayuda{
+    background-color: aqua;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}  
+
+main form fieldset{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    color: black;
+}
+
+legend, label, input, select{
+    display: block;
+    margin-bottom: 1em;
+}
+
