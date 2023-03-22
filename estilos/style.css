@@ -70,23 +70,25 @@ header nav li a:hover{
 }
 
 main {
-    margin-left: 20px;
+    margin-left: 10px;
     background-color: aqua;
     display: flex;
-    margin-top: 40px;
+    margin-top: 10px;
     padding: 10px;
-    border-radius: 15px;
-    margin-right: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 main .img-home img{
-    height: 400px;
-    width: 800px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 15px;
-    border-radius: 10px;
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+}
+
+main .img-procesador-main img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
 }
 
 
