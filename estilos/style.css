@@ -72,23 +72,25 @@ header nav li a:hover{
 main {
     margin-left: 10px;
     background-color: aqua;
-    display: flex;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
     margin-right: 10px;
+    border-radius: 10px;
+    gap: 10px;
 }
 
 main .img-home img{
    height: 100%;
    width: 100%;
    border-radius: 5px;
+   padding: 15px;
 }
 
 main .img-procesador-main img{
     height: 100%;
     width: 100%;
     border-radius: 5px;
+    padding: 5px;
 }
 
 
@@ -111,25 +113,23 @@ main div p{
 
 .ensamblado{
     background-color: aqua;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 
 }
 
 .img-ensamblado iframe{
-    height: 400px;
-    width: 800px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 15px;
+    justify-content: end;
     border-radius: 10px;
+    padding: 5px;
+
 }
+
 
 .titulo-main-dos{
     font-family: 'Ubuntu', sans-serif;
@@ -150,37 +150,37 @@ section div p{
 /* Productos */
 
 .main-productos{
-    background-color: orange;
+    background-color: aqua;
     display: flex;
 }
 
-.titulo-producto{
+div .titulo-producto{
     font-family: 'Ubuntu', sans-serif;
     margin-bottom: 10px;
     padding: 10px 10px;
     font-size: 30px;
     text-align: center;
+    color: white;
+}    
+
+main .productos-galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
-.main-productos div ul li{
-    list-style: none;
-    font-size: 20px;
-}
 
-.main-productos div ul li a{
-    color: black;
-    padding: 10px 10px;
-    margin: 20px 20px;
-
-}
 
 .main-productos div img{
     height: 300px;
     width: 300px;
-    padding: 10px 10px;
+    padding: 5px 5px;
     margin: 15px 15px;
     background-color: black;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 /* nosotros */
@@ -290,26 +290,30 @@ footer div{
    background-color: black;
    display: flex;
    padding: 20px;
-   justify-content: end;
+   justify-content:space-around
 }
 
 footer div ul{
     display: flex;
+    padding: 5px;
+    flex-direction: row;
 }
-
-
-
+ 
 footer .logos-redes .img-twitter{
-    width: 40px;
+    width: 30px;
     height: 30px;
+    margin: 5px;
 }
 
 footer .logos-redes .img-instagram{
-    width: 55px;
+    width: 50px;
     height: 30px;
+    margin: 5px;
+
 }
 
 footer .logos-redes .img-whatsapp{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }
