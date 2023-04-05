@@ -1,1 +1,303 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Heebo:wght@300;400;700&family=Roboto+Mono:ital,wght@1,300&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Vollkorn", serif;
+}
+
+body {
+  background-color: white;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+  font-size: 700;
+  font-family: "Heebo", sans-serif;
+}
+
+.Nombre {
+  font-family: "Heebo", sans-serif;
+}
+
+header {
+  background-color: orange;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 4;
+}
+
+header a h2 {
+  display: flex;
+  margin-left: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo {
+  display: flex;
+  margin-right: auto;
+}
+
+header a img {
+  height: 40px;
+  padding-left: 10px;
+}
+
+header .navbar .nav {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header .navbar .nav {
+  list-style: none;
+}
+
+header .navbar .nav a {
+  text-decoration: none;
+}
+
+header nav li a:hover {
+  color: red;
+}
+
+main .img-home img {
+  height: 400px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+main .img-procesador-main img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+main div p {
+  font-size: larger;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.titulo-main {
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 10px;
+}
+
+.texto-main {
+  font-size: 20px;
+  text-align: left;
+  padding: 10px 10px;
+}
+
+.img-ensamblado iframe {
+  justify-content: end;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.titulo-main-dos {
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+
+section div p {
+  font-size: larger;
+  font-size: 25px;
+  text-align: left;
+  padding: 10px 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Productos */
+.main-productos {
+  background-color: aqua;
+  display: flex;
+}
+
+div .titulo-producto {
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+main .productos-galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.main-productos div img {
+  height: 300px;
+  width: 300px;
+  padding: 5px 5px;
+  margin: 15px 15px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+/* nosotros */
+.main-nosotros {
+  display: flex;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  background-color: orange;
+}
+
+.main-nosotros div .titulo-nosotros {
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.main-nosotros div p {
+  font-size: larger;
+  font-size: 25px;
+  text-align: left;
+  padding: 10px 10px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+
+.section-nosotros {
+  display: flex;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  background-color: aqua;
+  border-radius: 15px;
+}
+
+.section-nosotros div .titulo-trayectoria {
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.section-nosotros div p {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.section-nosotros div iframe {
+  border-radius: 15px;
+  margin: 20px 15px;
+}
+
+/* encontranos */
+.main-encontranos {
+  background-color: aqua;
+  display: flex;
+}
+
+.main-encontranos h2 {
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+section div ul li iframe {
+  border-radius: 15px;
+  height: 300px;
+  width: 350px;
+}
+
+section div ul li {
+  margin: 10px 10px;
+  padding: 15px 15px;
+  display: inline-block;
+}
+
+.main-ayuda {
+  background-color: aqua;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  margin-top: 50px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+main form fieldset {
+  font-family: "Ubuntu", sans-serif;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  color: black;
+}
+
+legend, label, input, select {
+  display: block;
+  margin-bottom: 1em;
+}
+
+footer div {
+  background-color: rgb(180, 132, 41);
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+footer div ul {
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+  list-style: none;
+}
+
+footer .logos-redes .img-twitter {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+footer .logos-redes .img-instagram {
+  width: 50px;
+  height: 30px;
+  margin: 5px;
+}
+
+footer .logos-redes .img-whatsapp {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+body .carousel-item {
+  height: 500px;
+  width: 100%;
+}
+
+/* media q */
+@media only screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+    padding: 0px 10px;
+    margin-top: 5px;
+  }
+  header img {
+    padding-top: 7px;
+  }
+  iframe {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
