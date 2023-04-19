@@ -1,0 +1,50 @@
+.main-encontranos{
+    background-color: aqua;
+    display: flex;
+}
+
+.main-encontranos h2{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+section div ul li iframe {
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+}
+
+section div ul li{
+    margin: 10px 10px;
+    padding: 15px 15px;
+    display: inline-block;
+
+}
+
+.main-ayuda{
+    background-color: aqua;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}  
+
+main form fieldset{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    color: black;
+}
+
+legend, label, input, select{
+    display: block;
+    margin-bottom: 1em;
+}

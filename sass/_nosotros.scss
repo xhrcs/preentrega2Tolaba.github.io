@@ -1,0 +1,47 @@
+.main-nosotros{
+    display: flex;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background-color: orange;
+}
+
+.main-nosotros div .titulo-nosotros{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-nosotros div p{
+    font-size: larger;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px 10px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.section-nosotros{
+    display: flex;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.section-nosotros div .titulo-trayectoria{
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section-nosotros div p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-nosotros div iframe{
+    border-radius: 15px;
+    margin: 20px 15px;
+}
