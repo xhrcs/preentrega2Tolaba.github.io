@@ -11,31 +11,35 @@
     <title>Tienda de ejemplo</title>
 </head>
 <body>
-    <header>
-        <a href="index.html" class="logo">
-            <img src="./imagenes/my-pc-icon-30.png" alt="">
-            <h2 class="Nombre">PcNation</h2>
+  <header></header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/imagenes/my-pc-icon-30.png" alt="PcNation Logo" width="30" height="24">
+          PCNation
         </a>
-        <nav class="navbar">
-            <ul>
-                <li class="nav">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="nav">
-                    <a href="./paginas/productos.html">Productos</a>
-                </li>
-                <li class="nav">
-                    <a href="./paginas/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav">
-                    <a href="./paginas/encontranos.html">Encontranos</a>
-                </li>
-                <li class="nav">
-                     <a href="./paginas/ayuda.html">Ayuda</a>
-                </li>     
-            </ul>       
-        </nav>
-    </header>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+  </header>
     
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -59,35 +63,23 @@
         </button>
       </div>
 
-      <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-12 mb-4 mt-4">
-      <div class="card " style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Nuestro Trabajo</h5>
-          <p class="card-text" >   Nos especializamos en la venta de prductos de calidad para tu pc, desde procesadores, ram, motherboards, case, etc. Trabajamos con productos de Hyperx, Logitech, Samsung, y demas marcas para llegar a la accesibilidad de todos nuestros clientes, para que tengas una experiencia unica y inolvidable detras de tu pantalla,¡Como tiene que ser!</p>
-          <a href="/paginas/nosotros.html" class="btn btn-primary">Nosotros</a>
+      <div class="container row">
+        <div class="col-6">
+          <div class="card-body">
+            <h5 class="card-title">Nuestro Trabajo</h5>
+            <p class="card-text" >   Nos especializamos en la venta de prductos de calidad para tu pc, desde procesadores, ram, motherboards, case, etc. Trabajamos con productos de Hyperx, Logitech, Samsung, y demas marcas para llegar a la accesibilidad de todos nuestros clientes, para que tengas una experiencia unica y inolvidable detras de tu pantalla,¡Como tiene que ser!</p>
+            <a href="/paginas/nosotros.html" class="btn btn-primary">Nosotros</a>
+          </div>
+        </div>
+        
+        <div class="col-6">
+          <div class="card-body">
+              <h5 class="card-title">Ensamblado de tu PC</h5>
+              <p class="card-text">No sabes armar tu pc? Nosotros nos encargamos!, estamos especializamos y preparados para cualqueira de tus encargos, dejamos la pc en condiciones para que simplemetne te sientes a usarla, nuestros especialistas, emsamablan tu pc, con tus gustos, tus colores, tus preferencias, y todo lo que precises!</p>
+              <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+          </div>
         </div>
       </div>
-      </div>
-      </div>
-      </div>
-      
-      
-      <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-12 mb-4 mt-4">
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Ensamblado de tu PC</h5>
-          <p class="card-text">No sabes armar tu pc? Nosotros nos encargamos!, estamos especializamos y preparados para cualqueira de tus encargos, dejamos la pc en condiciones para que simplemetne te sientes a usarla, nuestros especialistas, emsamablan tu pc, con tus gustos, tus colores, tus preferencias, y todo lo que precises!</p>
-          <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
 
 
     <footer>
