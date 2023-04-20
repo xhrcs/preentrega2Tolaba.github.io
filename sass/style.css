@@ -5,6 +5,11 @@
   font-family: "Heebo", sans-serif;
 }
 
+.carousel-item img {
+  width: 800px;
+  height: 450px;
+}
+
 .main-productos {
   background-color: aqua;
   display: flex;
