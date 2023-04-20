@@ -26,15 +26,24 @@ body{
 }
 
 
-.Nombre{
-    font-family: 'Heebo', sans-serif;
-}
-
 $font-tittle: 'Heebo', sans-serif;
 
-
-
-
+header{
+    background-color:#8a8e95;
+    .navbar-collapse{
+        justify-content: flex-end;
+        }
+        .nav-item{
+            display: flex;
+            align-items: center;
+        }
+        .nav-link{
+            a{
+                font-family: 'Ubuntu', sans-serif;
+            }
+        }
+    }
+    
 /* Productos */
 
 
@@ -44,37 +53,33 @@ $font-tittle: 'Heebo', sans-serif;
 /* encontranos */
 
 
-footer div{
-   background-color: rgb(180, 132, 41);
-   display: flex;
-   padding: 20px;
-   justify-content:space-around
-}
-
-footer div ul{
-    display: flex;
-    padding: 5px;
-    flex-direction: row;
-    list-style: none;
-}
- 
-footer .logos-redes .img-twitter{
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-}
-
-footer .logos-redes .img-instagram{
-    width: 50px;
-    height: 30px;
-    margin: 5px;
-
-}
-
-footer .logos-redes .img-whatsapp{
-    width: 30px;
-    height: 30px;
-    margin: 5px;
+footer{
+    .img-twitter{
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+    .img-instagram{
+        width: 50px;
+        height: 30px;
+        margin: 5px;
+    }
+    .img-whatsapp{
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+    div{
+        background-color: rgb(180, 132, 41);
+        display: flex;
+        padding: 20px;
+        justify-content:space-around}
+        ul{
+            display: flex;
+            padding: 5px;
+            flex-direction: row;
+            list-style: none;
+        }
 }
 
 

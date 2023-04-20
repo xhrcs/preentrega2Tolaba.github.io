@@ -13,22 +13,26 @@ div .titulo-producto{
     color: black;
 }    
 
-main .productos-galeria{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
+main{
+    .main-productos{
+        background-color: aqua;
+        display: flex;
+    }.productos-galeria{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    img{
+        height: 300px;
+        width: 300px;
+        padding: 5px 5px;
+        margin: 15px 15px;
+        background-color: black;
+        border-radius: 5px;
+    }
+    
 
-
-
-.main-productos div img{
-    height: 300px;
-    width: 300px;
-    padding: 5px 5px;
-    margin: 15px 15px;
-    background-color: black;
-    border-radius: 5px;
 }

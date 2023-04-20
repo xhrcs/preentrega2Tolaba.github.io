@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Gloock&family=Heebo:wght@300;400;700&family=Roboto+Mono:ital,wght@1,300&family=Ubuntu:wght@400;500;700&display=swap");
+.card-body {
+  background-color: #d2d9e2;
+  border-radius: 15px;
+  font-family: "Heebo", sans-serif;
+}
+
 .main-productos {
   background-color: aqua;
   display: flex;
@@ -13,6 +19,10 @@ div .titulo-producto {
   color: black;
 }
 
+main .main-productos {
+  background-color: aqua;
+  display: flex;
+}
 main .productos-galeria {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -21,8 +31,7 @@ main .productos-galeria {
   margin-top: 10px;
   margin-left: 10px;
 }
-
-.main-productos div img {
+main img {
   height: 300px;
   width: 300px;
   padding: 5px 5px;
@@ -146,43 +155,49 @@ body a {
   font-family: "Heebo", sans-serif;
 }
 
-.Nombre {
-  font-family: "Heebo", sans-serif;
+header {
+  background-color: #8a8e95;
+}
+header .navbar-collapse {
+  justify-content: flex-end;
+}
+header .nav-item {
+  display: flex;
+  align-items: center;
+}
+header .nav-link a {
+  font-family: "Ubuntu", sans-serif;
 }
 
 /* Productos */
 /* nosotros */
 /* encontranos */
+footer .img-twitter {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+footer .img-instagram {
+  width: 50px;
+  height: 30px;
+  margin: 5px;
+}
+footer .img-whatsapp {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
 footer div {
   background-color: rgb(180, 132, 41);
   display: flex;
   padding: 20px;
   justify-content: space-around;
 }
-
-footer div ul {
+footer ul {
   display: flex;
   padding: 5px;
   flex-direction: row;
   list-style: none;
-}
-
-footer .logos-redes .img-twitter {
-  width: 30px;
-  height: 30px;
-  margin: 5px;
-}
-
-footer .logos-redes .img-instagram {
-  width: 50px;
-  height: 30px;
-  margin: 5px;
-}
-
-footer .logos-redes .img-whatsapp {
-  width: 30px;
-  height: 30px;
-  margin: 5px;
 }
 
 /* media q */
